@@ -1,1 +1,1 @@
-[DEMO LINK](https://KirillLutsenko.github.io/Kickstarter)
+[DEMO LINK](https://kirilllutsenko.github.io/Kickstarter/)
