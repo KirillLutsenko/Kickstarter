@@ -1,0 +1,15 @@
+.user {
+  &__key {
+    padding-right: 3px;
+    color: $links-radio-color;
+    transition: $links-transition;
+
+    &:hover {
+      color: $links-radio-hover;
+    }
+  }
+
+  &__username {
+    color: #6fb2f0;
+  }
+}

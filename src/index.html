@@ -3,11 +3,156 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Test Task</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <section class="extension">
+      <!--Authorization-->
+      <div class="extension__authorization authorization">
+        <div class="authorization__form form">
+          <input
+            type="text"
+            class="form__input"
+            placeholder="Email"
+          >
+
+          <input
+            type="password"
+            class="form__input"
+            placeholder="Password"
+          >
+
+          <button class="form__login">Log in</button>
+          <a href="#" class="form__forgot">Forgot password?</a>
+        </div>
+
+        <div class="authorization__google google">
+          <div class="google__img"><img src="./images/google.png" alt="Google Autorization"></div>
+          <button class="google__button">Sign in with Google</button>
+        </div>
+
+        <div class="authorization__buttons-auth buttons-auth">
+          <div class="buttons-auth__navigation navigation">
+            <label for="login-radio_1" class="navigation__bar">
+              <input
+                type="radio"
+                name="login-radio"
+                id="login-radio_1"
+                value="Login"
+                class="navigation__radio"
+                checked
+              >
+              <span class="navigation__text">Login</span>
+            </label>
+
+            <label for="login-radio_2" class="navigation__bar">
+              <input
+                type="radio"
+                name="login-radio"
+                id="login-radio_2"
+                value="Sign Up"
+                class="navigation__radio"
+              >
+
+              <span class="navigation__text">Sign Up</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <!--Main Menu-->
+      <div class="extension__menu menu">
+        <div class="menu__header header">
+          <a href="#" class="header__user user">
+            <span class="user__key">User:</span>
+            <span class="user__username">Fuyue000001</span>
+          </a>
+
+          <a href="#" class="header__balance balance">
+            <span class="balance__key">Balance:</span>
+            <span class="balance__count">10</span>
+            <img
+              src="./images/coin.png"
+              alt="Coins picture"
+              class="balance__img"
+            >
+          </a>
+        </div>
+
+        <div class="slider">
+          <div class="slider__slides slides">
+            <input
+              type="radio"
+              name="menu-navigation"
+              id="home-radio"
+              value="home"
+              class="slider__radio"
+              checked
+            >
+            <input
+              type="radio"
+              name="menu-navigation"
+              id="search-radio"
+              value="search"
+              class="slider__radio"
+            >
+            <input
+              type="radio"
+              name="menu-navigation"
+              id="add-contacts-radio"
+              value="add-contacts"
+              class="slider__radio"
+            >
+            <input
+              type="radio"
+              name="menu-navigation"
+              id="null-radio"
+              value="null"
+              class="slider__radio"
+            >
+
+            <div class="slides__contacts-list contacts-list slide">
+              <h1 class="contacts-list__title">My Contacts</h1>
+              <p class="contacts-list__main">No contacts</p>
+            </div>
+
+            <div class="slides__search search slide"></div>
+
+            <div class="slides__add-contacts add-contacts slide"></div>
+            <div class="slides__null null slide"></div>
+          </div>
+        </div>
+
+        <div class="menu__nav nav">
+          <label for="home-radio" class="nav__item">
+            <img
+              src="./images/home.png"
+              alt="Home logo"
+              class="nav__logo--1">
+            </img>
+          </label>
+
+          <label for="search-radio" class="nav__item">
+            <img
+              src="./images/search.png"
+              alt="Home logo"
+              class="nav__logo--2">
+            </img>
+          </label>
+
+          <label for="add-contacts-radio" class="nav__item">
+            <img
+              src="./images/add-contacts.png"
+              alt="Home logo"
+              class="nav__logo--3">
+            </img>
+          </label>
+        </div>
+      </div>
+    </section>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

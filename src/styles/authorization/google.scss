@@ -1,0 +1,24 @@
+.google {
+  box-shadow: 0 1px 2px rgba(100, 173, 241, 0.52),
+    0 0.5px 1px rgba(57, 198, 233, 0.48);
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 1px 6px rgba(21, 71, 236, 0.52),
+      0 0.5px 6px rgba(17, 163, 199, 0.48);
+  }
+  cursor: pointer;
+  &__img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+  }
+
+  &__button {
+    width: 145px;
+    border: none;
+    background-color: #3c85fb;
+    color: #fff;
+    cursor: pointer;
+  }
+}

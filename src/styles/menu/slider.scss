@@ -1,0 +1,10 @@
+.slider {
+  height: 360px;
+  width: 360px;
+  overflow: hidden;
+
+  &__radio {
+    position: absolute;
+    visibility: hidden;
+  }
+}

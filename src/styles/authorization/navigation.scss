@@ -1,0 +1,27 @@
+.navigation {
+
+  &__bar {
+    margin: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: #9da1a9;
+    transition: $links-transition;
+
+    &:hover {
+      color: $links-radio-hover;
+    }
+  }
+
+  &__radio {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+input:checked + span {
+  color: $links-radio-color;
+}
