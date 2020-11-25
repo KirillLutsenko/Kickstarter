@@ -7,13 +7,19 @@
 @import "./authorization/buttons-auth.scss";
 @import "./authorization/navigation.scss";
 @import "./menu/menu.scss";
-@import "./menu/header.scss";
-@import "./menu/balance.scss";
-@import "./menu/user.scss";
-@import "./menu/nav.scss";
-@import "./menu/contacts-list.scss";
-@import "./menu/slider.scss";
-@import "./menu/slides.scss";
+@import "./menu/header/header.scss";
+@import "./menu/header/balance.scss";
+@import "./menu/header/user.scss";
+@import "./menu/footer_nav/nav.scss";
+@import "./menu/slider/contacts-list.scss";
+@import "./menu/slider/slider.scss";
+@import "./menu/slider/slides.scss";
+@import "./menu/slider/search.scss";
+@import "./menu/slider/find-menu.scss";
+@import "./menu/slider/selects.scss";
+@import "./menu/slider/nav-menu.scss";
+@import "./menu/slider/add-contacts.scss";
+@import "./menu/slider/submit.scss";
 
 html {
   scroll-behavior: smooth;

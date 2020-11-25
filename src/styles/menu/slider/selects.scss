@@ -1,0 +1,43 @@
+.selects {
+  opacity: 0.7;
+  font-weight: 500;
+
+  &__select {
+    border: none;
+    border-bottom: $header-bottom-border;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+      border-color: #7657ffb4;
+    }
+  }
+
+  &__button {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: $buttons-border;
+    background-color: $buttons-color;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: $buttons-transition;
+
+    &:hover {
+      background-color: #5d38fd;
+      box-shadow: 0 1px 3px rgba(97, 21, 236, 0.52),
+        0 0.5px 2px rgba(199, 126, 17, 0.48);
+    }
+  }
+
+  &:first-child {
+    margin-left: 20px;
+  }
+}

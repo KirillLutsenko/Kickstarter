@@ -1,17 +1,16 @@
-.navigation {
+.nav-menu {
   &__bar {
     margin: 30px;
     font-family: inherit;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 12px;
     width: 100px;
     height: 30px;
     cursor: pointer;
-    color: #9da1a9;
+    color: #636364;
     transition: $links-transition;
 
-    &:hover,
-    &:focus {
+    &:hover {
       color: #000;
     }
   }

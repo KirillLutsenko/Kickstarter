@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <section class="extension">
+  <body calss="page">
+    <section class="page__extension extension">
       <!--Authorization-->
       <div class="extension__authorization authorization">
         <div class="authorization__form form">
@@ -27,6 +27,7 @@
           >
 
           <button class="form__login">Log in</button>
+
           <a href="#" class="form__forgot">Forgot password?</a>
         </div>
 
@@ -46,6 +47,7 @@
                 class="navigation__radio"
                 checked
               >
+
               <span class="navigation__text">Login</span>
             </label>
 
@@ -65,6 +67,7 @@
       </div>
       <!--Main Menu-->
       <div class="extension__menu menu">
+        <!--Header-->
         <div class="menu__header header">
           <a href="#" class="header__user user">
             <span class="user__key">User:</span>
@@ -81,7 +84,7 @@
             >
           </a>
         </div>
-
+        <!--Slider-->
         <div class="slider">
           <div class="slider__slides slides">
             <input
@@ -92,6 +95,7 @@
               class="slider__radio"
               checked
             >
+
             <input
               type="radio"
               name="menu-navigation"
@@ -99,6 +103,7 @@
               value="search"
               class="slider__radio"
             >
+
             <input
               type="radio"
               name="menu-navigation"
@@ -106,53 +111,118 @@
               value="add-contacts"
               class="slider__radio"
             >
-            <input
-              type="radio"
-              name="menu-navigation"
-              id="null-radio"
-              value="null"
-              class="slider__radio"
-            >
-
+            <!--Contacts-->
             <div class="slides__contacts-list contacts-list slide">
-              <h1 class="contacts-list__title">My Contacts</h1>
+              <h2 class="contacts-list__title">My Contacts</h2>
               <p class="contacts-list__main">No contacts</p>
             </div>
+            <!--Search-->
+            <div class="slides__search search slide">
+              <h2 class="search__title">Find Contacts</h2>
 
-            <div class="slides__search search slide"></div>
+              <div class="search__find-menu find-menu">
+                <div class="find-menu__selects selects">
+                  <label for="select--1" class="selects__label">Industry</label>
 
-            <div class="slides__add-contacts add-contacts slide"></div>
-            <div class="slides__null null slide"></div>
+                  <select
+                    name=""
+                    id="select--1"
+                    class="selects__select"
+                  >
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                  </select>
+                </div>
+
+                <div class="find-menu__selects selects">
+                  <label for="select--2" class="selects__label">Company</label>
+
+                  <select
+                    name=""
+                    id="select--2"
+                    class="selects__select"
+                  >
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                  </select>
+                </div>
+
+                <div class="find-menu__selects selects">
+                  <label for="select--3" class="selects__label">Position</label>
+
+                  <select
+                    name=""
+                    id="select--3"
+                    class="selects__select"
+                  >
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                    <option value="Any">Any</option>
+                  </select>
+                </div>
+
+                <button class="selects__button">Find</button>
+              </div>
+            </div>
+            <!--Add Contacts-->
+            <div class="slides__add-contacts add-contacts slide">
+              <div class="add-contacts__nav-menu nav-menu">
+                <label for="submit-radio" class="nav-menu__bar">
+                  <input
+                    type="radio"
+                    name="add-contacts_radio"
+                    id="submit-radio"
+                    value="Submit Contacts"
+                    class="nav-menu__radio"
+                    checked
+                  >
+
+                  <span class="nav-menu__text">Submit Contacts</span>
+                </label>
+
+                <label for="history-radio" class="nav-menu__bar">
+                  <input
+                    type="radio"
+                    name="add-contacts_radio"
+                    id="history-radio"
+                    value="History"
+                    class="nav-menu__radio"
+                  >
+
+                  <span class="nav-menu__text">History</span>
+                </label>
+              </div>
+
+              <div class="add-contacts__submit submit">
+                <h2 class="submit__title">Found the contact we don't have?</h2>
+
+                <button class="submit__button">Submit contact for credits</button>
+              </div>
+            </div>
           </div>
         </div>
-
+        <!--Slider Navigation-->
         <div class="menu__nav nav">
           <label for="home-radio" class="nav__item">
-            <img
-              src="./images/home.png"
-              alt="Home logo"
-              class="nav__logo--1">
-            </img>
+            <div class="nav__logo--1"></div>
           </label>
 
           <label for="search-radio" class="nav__item">
-            <img
-              src="./images/search.png"
-              alt="Home logo"
-              class="nav__logo--2">
-            </img>
+            <div class="nav__logo--2"> </div>
           </label>
 
           <label for="add-contacts-radio" class="nav__item">
-            <img
-              src="./images/add-contacts.png"
-              alt="Home logo"
-              class="nav__logo--3">
-            </img>
+            <div class="nav__logo--3"></div>
           </label>
         </div>
       </div>
     </section>
+
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

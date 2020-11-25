@@ -1,0 +1,15 @@
+.add-contacts {
+  &__nav-menu {
+    margin: 0 15px;
+    padding: 15px 0 10px 30px;
+    border-bottom: $violet-berder;
+  }
+
+  &__submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 305px;
+  }
+}

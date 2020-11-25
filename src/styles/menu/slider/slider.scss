@@ -1,6 +1,6 @@
 .slider {
-  height: 360px;
-  width: 360px;
+  height: $slider-heigth;
+  width: $slider-width;
   overflow: hidden;
 
   &__radio {

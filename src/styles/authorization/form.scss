@@ -30,15 +30,17 @@
     height: 35px;
     text-transform: uppercase;
     border: none;
+    border-radius: $buttons-border;
     font-family: inherit;
     font-size: 14;
-    background-color: #7657ff;
+    background-color: $buttons-color;
     color: #fff;
     outline: none;
     cursor: pointer;
     transition: $buttons-transition;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: #5d38fd;
       box-shadow: 0 1px 3px rgba(97, 21, 236, 0.52),
         0 0.5px 2px rgba(199, 126, 17, 0.48);
