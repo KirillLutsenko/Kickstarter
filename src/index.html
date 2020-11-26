@@ -92,7 +92,7 @@
               name="menu-navigation"
               id="home-radio"
               value="home"
-              class="slider__radio"
+              class="slider__radio radio--1"
               checked
             >
 
@@ -101,7 +101,7 @@
               name="menu-navigation"
               id="search-radio"
               value="search"
-              class="slider__radio"
+              class="slider__radio radio--2"
             >
 
             <input
@@ -109,11 +109,12 @@
               name="menu-navigation"
               id="add-contacts-radio"
               value="add-contacts"
-              class="slider__radio"
+              class="slider__radio radio--3"
             >
             <!--Contacts-->
             <div class="slides__contacts-list contacts-list slide">
               <h2 class="contacts-list__title">My Contacts</h2>
+
               <p class="contacts-list__main">No contacts</p>
             </div>
             <!--Search-->
@@ -207,7 +208,7 @@
           </div>
         </div>
         <!--Slider Navigation-->
-        <div class="menu__nav nav">
+        <div class="menu__nav nav" id="active">
           <label for="home-radio" class="nav__item">
             <div class="nav__logo--1"></div>
           </label>
@@ -222,7 +223,6 @@
         </div>
       </div>
     </section>
-
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

@@ -38,3 +38,16 @@
     }
   }
 }
+
+//will work at the first nesting level
+// .radio--1:checked ~ #active label:nth-child(1) {
+//   background-image: url("/images/home-active.png");
+// }
+
+// .radio--2:checked ~ #active label:nth-child(2) {
+//   background-image: url("/images/search-active.png");
+// }
+
+// .radio--3:checked ~ #active label:nth-child(3) {
+//   background-image: url("/images/add-contacts-active.png");
+// }
