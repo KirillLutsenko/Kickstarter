@@ -1,6 +1,6 @@
 **Test Task Contacts Extension for Google Chrome**
 
-[DEMO LINK](https://kirilllutsenko.github.io/Kickstarter/)
+[DEMO LINK](https://kirilllutsenko.github.io/Test-Task-TensionX/)
 
 **Description**
 - Tech stack: HTML5, SASS, BEM, Flexbox.
