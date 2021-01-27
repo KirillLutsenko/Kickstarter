@@ -1,0 +1,31 @@
+.authorization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 360px;
+  height: 450px;
+  box-shadow: 0 4px 6px rgba(194, 189, 184, 0.52),
+    0 0.5px 3px rgba(56, 56, 56, 0.48);
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__google {
+    display: flex;
+    width: 180px;
+    height: 37px;
+    border: 1px solid #3c85fb;
+  }
+
+  &__buttons-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 300px;
+  }
+}

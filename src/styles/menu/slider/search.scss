@@ -1,0 +1,19 @@
+.search {
+  font-family: inherit;
+  font-size: 10px;
+
+  &__title {
+    margin: 15px 0 30px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__find-menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: $slider-width;
+    padding-bottom: 15px;
+    border-bottom: $violet-berder;
+  }
+}

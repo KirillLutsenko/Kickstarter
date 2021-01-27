@@ -1,7 +1,48 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./reset.scss";
+@import "./utils/vars";
+@import "./extension.scss";
+@import "./authorization/authorization.scss";
+@import "./authorization/google.scss";
+@import "./authorization/form.scss";
+@import "./authorization/buttons-auth.scss";
+@import "./authorization/navigation.scss";
+@import "./menu/menu.scss";
+@import "./menu/header/header.scss";
+@import "./menu/header/balance.scss";
+@import "./menu/header/user.scss";
+@import "./menu/footer_nav/nav.scss";
+@import "./menu/slider/contacts-list.scss";
+@import "./menu/slider/slider.scss";
+@import "./menu/slider/slides.scss";
+@import "./menu/slider/search.scss";
+@import "./menu/slider/find-menu.scss";
+@import "./menu/slider/selects.scss";
+@import "./menu/slider/nav-menu.scss";
+@import "./menu/slider/add-contacts.scss";
+@import "./menu/slider/submit.scss";
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3b3b3b;
+}
 
 body {
-  background: $c-gray;
+  min-height: 100vh;
+  padding: 0;
+  background: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

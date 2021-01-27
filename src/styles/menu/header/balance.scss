@@ -1,0 +1,21 @@
+.balance {
+  &__img {
+    margin: 2px 0 0 2px;
+    width: 11px;
+    height: 11px;
+  }
+
+  &__key {
+    padding-right: 3px;
+    color: $links-radio-color;
+    transition: $links-transition;
+
+    &:hover {
+      color: $links-radio-hover;
+    }
+  }
+
+  &__count {
+    color: rgb(223, 197, 51);
+  }
+}

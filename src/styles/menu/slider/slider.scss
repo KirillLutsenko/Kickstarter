@@ -1,0 +1,10 @@
+.slider {
+  height: $slider-heigth;
+  width: $slider-width;
+  overflow: hidden;
+
+  &__radio {
+    position: absolute;
+    visibility: hidden;
+  }
+}

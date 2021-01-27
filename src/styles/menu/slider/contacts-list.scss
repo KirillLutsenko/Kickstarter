@@ -1,0 +1,13 @@
+.contacts-list {
+  font-family: inherit;
+
+  &__title {
+    margin: 15px 0 115px;
+    font-weight: 700;
+  }
+
+  &__main {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}

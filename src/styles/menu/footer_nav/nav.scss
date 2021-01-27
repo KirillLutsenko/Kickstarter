@@ -1,0 +1,53 @@
+.nav {
+  &__item {
+    cursor: pointer;
+  }
+
+  &__logo--1 {
+    margin-left: 80px;
+    width: 29px;
+    height: 23px;
+    background-image: url("/images/home.png");
+    transition: $image-transition;
+
+    &:hover {
+      background-image: url("/images/home-active.png");
+    }
+  }
+
+  &__logo--2 {
+    width: 23px;
+    height: 23px;
+    background-image: url("/images/search.png");
+    transition: $image-transition;
+
+    &:hover {
+      background-image: url("/images/search-active.png");
+    }
+  }
+
+  &__logo--3 {
+    margin-right: 80px;
+    width: 29px;
+    height: 23px;
+    background-image: url("/images/add-contacts.png");
+    transition: $image-transition;
+
+    &:hover {
+      background-image: url("/images/add-contacts-active.png");
+    }
+  }
+}
+
+//will work at the first nesting level
+// .radio--1:checked ~ #active label:nth-child(1) {
+//   background-image: url("/images/home-active.png");
+// }
+
+// .radio--2:checked ~ #active label:nth-child(2) {
+//   background-image: url("/images/search-active.png");
+// }
+
+// .radio--3:checked ~ #active label:nth-child(3) {
+//   background-image: url("/images/add-contacts-active.png");
+// }

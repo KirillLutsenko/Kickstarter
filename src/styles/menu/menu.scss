@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  width: $slider-width;
+  height: 450px;
+  box-shadow: 0 4px 6px rgba(194, 189, 184, 0.52),
+    0 0.5px 3px rgba(56, 56, 56, 0.48);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: $slider-width;
+    height: 50px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: $slider-width;
+    height: 40px;
+    border-top: $header-bottom-border;
+  }
+}
